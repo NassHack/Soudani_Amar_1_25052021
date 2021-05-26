@@ -1,0 +1,24 @@
+.header {
+    height: 200px;
+    width: 100%;
+    background: brown;
+}
+
+.contenu {
+    height: 700px;
+    width: 100%;
+    background: coral;
+}
+
+.contenu .articles {
+    height: 700px;
+    width: 70%;
+    background: darkmagenta;
+}
+
+
+.footer {
+    height: 300px;
+    width: 100%;
+    background: darkgray;
+}
