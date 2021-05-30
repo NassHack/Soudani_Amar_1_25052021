@@ -1,29 +1,58 @@
 * {
     font-family: 'Raleway', sans-serif;
+    padding:  0 0 0 0;
+    margin: 0 0 0 0;
 }
 
 
 .header {
     height: 200px;
     width: 100%;
-    background: brown;
+    background: white; 
+    border: 1px solid black;
+    
 }
 
-.contenu {
+
+.header_navbar_menu_lien {
+    
+    flex-wrap: wrap;
+    float: right;
+    justify-content: space-between;
+    display: flex;
+}   
+
+.contenu1 {
     height: 700px;
     width: 100%;
-    background: coral;
+    background-color: coral;
+    border: 1px solid black;
 }
 
-.contenu .articles {
+.contenu1 .articles {
     height: 700px;
     width: 70%;
-    background: darkmagenta;
+    background-color: darkmagenta;
+    border: 1px solid black;
+}
+
+.contenu2 .activités {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
 }
 
 
 .footer {
-    height: 300px;
+    height: 250px;
     width: 100%;
-    background: darkgray;
+    background-color: gainsboro;
+    border: 1px solid black;
+    
+}
+
+.footer .footer_apropos {
+    text-align: overflow;
+
 }
