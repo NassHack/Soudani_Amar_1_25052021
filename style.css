@@ -14,7 +14,7 @@
 }
 
 
-.header_navbar_menu_lien {
+.header_navbar_link {
     
     flex-wrap: wrap;
     float: right;
@@ -22,21 +22,21 @@
     display: flex;
 }   
 
-.contenu1 {
+.content-header {
     height: 700px;
     width: 100%;
     background-color: coral;
     border: 1px solid black;
 }
 
-.contenu1 .articles {
+.content-header .articles {
     height: 700px;
     width: 70%;
     background-color: darkmagenta;
     border: 1px solid black;
 }
 
-.contenu2 .activités {
+.content-activity .activity {
     height: 300px;
     width: 100%;
     background-color: white;
