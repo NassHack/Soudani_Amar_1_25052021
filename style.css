@@ -5,4 +5,145 @@
 
 body {
     font-family: "Raleway-Regular" , sans-serif;
+    background: white;
+    min-width: 10%;
+    max-width: 100%;
+    
+}
+
+
+.header {
+    
+    
+}
+
+
+
+.logo {
+    width: 750px;
+}
+
+
+.header_navbar_menu {
+    position: absolute;
+    top: 25px;
+    width: 98%;
+    text-align: right;
+ }
+
+ .header_navbar_link {
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    text-transform: none;
+    align-content: flex-start;
+    align-items: flex-end;
+    align-content: space-between;
+    text-decoration: none;
+    color: #0065FC;
+    font-weight: bold;
+    
+}
+
+
+
+
+.title{
+    line-height: 0px;
+}
+
+h1{
+    font-size: 130%; /** px**/ 
+    font-weight: bold;
+}
+
+p{
+    font-size: 90%;
+}
+
+
+
+img{
+    width: 15%;
+}
+.research{
+    
+}
+
+i {
+    background-color: grey;
+    border-radius: 50%;
+    border: 1x solid grey;
+    padding: 10px;
+  }
+
+  .filter_button{
+      text-decoration: none;
+  }
+
+.content{
+    background:  #F2F2F2;
+    width: 100%;
+    padding-top: 52px;
+      
+}
+
+.hebergement_marseille{
+    padding-bottom: 5px;
+    
+}
+
+.accommodation{
+    width: 60%;
+    
+    
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    justify-content: left;
+    
+}
+
+.accommodation_card{
+    width: 30%;
+    height: 20%;
+
+}
+.accommodation_card_image{
+    width: 85%;
+    height: 100%;
+    border-radius: 8%;
+    
+}
+
+.accommodation_card_image_6{
+    width: 287px;
+    height: 222px;
+    border-radius: 8%;
+}
+
+.accommodation_card_image_5{
+    width: 287px;
+    height: 222px;
+    border-radius: 8%;
+}
+
+.accommodation_card_image_4{
+    width: 287px;
+    height: 222px;
+    border-radius: 8%;
+}
+
+
+
+.popular{
+    width: 
+    background: #F2F2F2;
+}
+
+.nav{
+
+}
+
+.footer {
+    display: flex;
 }
