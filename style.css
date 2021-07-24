@@ -61,12 +61,12 @@ img{
     width: 15%;
 }
 
-i {
+/**i {
     background-color: grey;
     border-radius: 50%;
     border: 1x solid grey;
     padding: 10px;
-  }
+  }**/
 
   .filter_button{
       text-decoration: none;
@@ -81,7 +81,7 @@ i {
 }
 
 .hebergement_marseille{
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     
 }
 
@@ -93,6 +93,7 @@ i {
     flex-direction:row;
     flex-wrap: wrap;
     justify-content: left;
+    border-radius: 5%;
     
 }
 
@@ -131,10 +132,88 @@ i {
 .popular{
     width: 35%;
     background:  #F2F2F2;
+    display: flex;    
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 5%;
+    
+      
+}
+
+.title_popular{
+    margin-left: 45px;
 }
 
 .nav{
+    width: 100%;
+    max-width: 100%;
+    margin-top: auto;
+    background:  #F2F2F2;
+    display: flex;
+    flex-direction:column;
+    justify-content: left;
+}
 
+.popular_card{
+    display: flex;
+    background: #FFFFFF;
+    margin-bottom: 24px;
+    border-radius: 10px 40px 40px 10px;
+    
+}
+
+.hotel_name_text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    
+}
+
+
+.popular_card_img{
+    display: flex;
+    width: 37%;
+    height: 40%;
+    border-radius: 8%;
+    
+}
+
+.popular_card_img_1{
+    width: 36%;
+    height: 79%;
+    border-radius: 10px 0px 0px 10px
+}
+
+.popular_card_img_2{
+    width: 36%;
+    height: 93%;
+    border-radius: 10px 0px 0px 10px
+}
+
+
+.popular_card_img_3{
+    width: 36%;
+    height: 39%;
+    border-radius: 10px 0px 0px 10px
+}
+
+.popular_card_3{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    margin-bottom: 24px
+    border-radius: 10px 40px 40px 10px;
+    
+}
+
+.hotel_name_star{
+    font-size: small;
+    color: blue;
+}
+
+.fas-fa-star-grey{
+    color: red;
 }
 
 .footer {
